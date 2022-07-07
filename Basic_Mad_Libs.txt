@@ -1,0 +1,52 @@
+""" Mad Libs Generator
+
+----------------------------------------
+
+"""
+
+#Loop back to this point once code finishes
+
+loop = 1
+while (loop < 5):
+  print(loop) #print as a check
+
+# All the questions that the program asks the user
+
+  noun = input("Choose a noun: ")
+
+  p_noun = input("Choose a plural noun: ")
+
+  noun2 = input("Choose a noun: ")
+
+  place = input("Name a place: ")
+
+  adjective = input("Choose an adjective (Describing word): ")
+
+  noun3 = input("Choose a noun: ")
+  noun4 = input("Choose a noun: ")
+
+#Displays the story based on the users input
+
+  print ("------------------------------------------")
+
+  print ("What in the world are",noun,"- footed", p_noun, "?")
+
+  print ("Is it something to hold? Something out in the ether?")
+
+  print("No, it is a", noun2, ".")
+
+  print ("And what is with",p_noun,"in",place, "?")
+
+  print ("Is it because of the people? Is it",adjective,"?")
+
+  print ()
+
+  print ("One would think this is ",noun3,",")
+
+  print ("But, it's really a", noun4)
+
+  print ("------------------------------------------")
+
+# # Loop back to "loop = 1"
+
+  loop += 1
